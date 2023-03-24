@@ -6,7 +6,7 @@ deploy:
   - kubectl apply -f k8s.yml
 dev:
   hello-world:
-    image: iglue/maven:3
+    image: okteto/maven:3
     command: bash
     sync:
       - .:/usr/src/app
