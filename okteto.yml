@@ -1,6 +1,6 @@
 build:
   hello-world:
-    image: iglue.dev/spring-boot-hello-world:1.0.0
+    image: okteto.dev/spring-boot-hello-world:1.0.0
     context: .
 deploy:
   - kubectl apply -f k8s.yml
